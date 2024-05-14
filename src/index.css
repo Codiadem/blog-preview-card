@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f6d050;
+}
+
+/* .card {
+  width: 400px;
+  height: 700px;
+} */
+.card {
+  box-shadow: 10px 10px 2px black;
+}
+.learn {
+  background-color: #f6d050;
+  /* font-size: 10px; */
+}
+
+h1 {
+  color: #f6d050;
+}
+
+.owner {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 370px) {
+  .learn {
+    font-size: 8px;
+  }
+  .pub {
+    font-size: 8px;
+  }
+  .page {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+}
